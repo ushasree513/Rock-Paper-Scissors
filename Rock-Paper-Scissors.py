@@ -20,5 +20,5 @@ def logic():
     else:
         label1.config(image=scissors)
         label1.pack()
-b1 = Button(root,text="Lets Play Rock-Paper-Scissors", font=("Bold",30),command=logic).pack()
+b1 = Button(root,text="Lets Play Rock-Paper-Scissors", font=("Bold",30),bg="Light Blue",command=logic).pack()
 root.mainloop()
